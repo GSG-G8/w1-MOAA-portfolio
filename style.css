@@ -1,0 +1,29 @@
+#navbar {
+    background-color: #222;
+}
+
+#logo {
+    padding: 5px 20px;
+}
+
+section {
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline li {
+    display: inline;
+}
+
+.white {
+    color: #fff;
+}
