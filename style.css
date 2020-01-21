@@ -1,272 +1,245 @@
-body{
-<<<<<<< HEAD
-    font-family:'Raleway', Times, sans-serif;
-    margin: 0px;
-    padding: 0px;
+body {
+  font-family: "Raleway", Times, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-#container{
+#container {
   width: 90%;
   margin: auto;
-}
-=======
-   margin: 0 ;
+
+  margin: 0;
 }
 
-.head{
-    margin: 0 auto;
-    max-width: 800px;
-    background-image: url(img/head.jpeg);
-    background-size: cover;
-    height: 300px;
-
+.head {
+  margin: 0 auto;
+  max-width: 800px;
+  background-image: url(img/head.jpeg);
+  background-size: cover;
+  height: 300px;
 }
 
 #main {
-      background-color: #222;
-  }
-
-  #nav-container {
-    position: fixed;
-    width: 100%;
-    top: 20px;
-   
-  }
->>>>>>> a1cb5d84d3c70b3b969e7171f69fa4d583ace52e
-#navbar {
-    position: relative;
-    margin: 0 auto;
-    max-width: 800px;
-    height: 50px;
-    background-color: rgba(0, 0, 0,.4);
+  background-color: #222;
 }
 
-h6{
-    line-height: 1px;
+#nav-container {
+  position: fixed;
+  width: 100%;
+  top: 20px;
+}
+#navbar {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+h6 {
+  line-height: 1px;
 }
 
 #logo {
-    
-    width: 200px;
-    padding: 5px 20px;
-   
+  width: 200px;
+  padding: 5px 20px;
 }
 
 #main-nav {
   position: absolute;
-    right: 20px;
+  right: 20px;
 }
 .center {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 section {
-
 }
-h1{
-    padding-left: 20px;
-    line-height: 1px;
+h1 {
+  padding-left: 20px;
+  line-height: 1px;
 }
 
 .row {
-   display: flex;
-   flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .inline {
-    padding: 0;
-    margin: 0;
-    display: relative;
+  padding: 0;
+  margin: 0;
+  display: relative;
 }
 .inline li {
-    display: inline-block;
-    padding: 0px;
-    
-    width: 70px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    
+  display: inline-block;
+  padding: 0px;
+
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
 }
 .inline li:hover {
-    background-color: #000;
-    cursor: pointer;
+  background-color: #000;
+  cursor: pointer;
 }
 .active {
-    background-color:#1d97a2;
-  }
+  background-color: #1d97a2;
+}
 
-.inline li a{
- text-decoration: none;
- color: white;
-   
-    
+.inline li a {
+  text-decoration: none;
+  color: white;
 }
 
 .white {
-    color: #fff;
+  color: #fff;
 }
-#sec-about{
-    width: 100%;
-    height: 800px;
-    background-color: #E7F8FB ;
-
+#sec-about {
+  width: 100%;
+  height: 800px;
+  background-color: #e7f8fb;
 }
-.left-con{
-    width: 65%;
-    box-sizing: border-box;
-    padding: 70px;;
+.left-con {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 70px;
 }
-h1{
-    font-size:3rem;
+h1 {
+  font-size: 3rem;
 }
-.left-con h3{
-    color: gray;
-    font-size: 1.5rem;
-    width: 80%;
+.left-con h3 {
+  color: gray;
+  font-size: 1.5rem;
+  width: 80%;
 }
 .r-img {
-    width: 35%;
-    height: 100%;
+  width: 35%;
+  height: 100%;
 }
-.r-img img{
-width: 100%;
-height: 100%;
+.r-img img {
+  width: 100%;
+  height: 100%;
 }
 .inline {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.s-ser{
-margin-top: 50px;
-width: 50%;
-height: 100px;
-box-sizing: border-box;
-
+.s-ser {
+  margin-top: 50px;
+  width: 50%;
+  height: 100px;
+  box-sizing: border-box;
 }
 
-.s-ser p{
-    color: gray;
-    padding-left: 40px;
-    padding-top: 10px;
-    width: 90%;
-
+.s-ser p {
+  color: gray;
+  padding-left: 40px;
+  padding-top: 10px;
+  width: 90%;
 }
-.icons{
-    font-size: 1.9em;
-    display: block;
-}
-
-#sec-about button{
-    margin-top: 50px;
-    padding: 20px;
-    border: 2px solid gray ;
-    border-radius: 50px;
-    width: 170px;
-    font-weight: bold;
-    color: black;
-    background-color: #E7F8FB ;
-    letter-spacing: 3px;
-    transform: scale(1.2);
-
-}
-#sec-about button:hover{
-  
-    transform: scale(1.3);
-    color: white;
-    border-color: #E7F8FB ;
-    background-color: #1d97a2;
-}
-#sec-team{
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 0px;
-
-}
-#sec-team h1{
-    margin-top: 40px;
+.icons {
+  font-size: 1.9em;
+  display: block;
 }
 
-
+#sec-about button {
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 50px;
+  width: 170px;
+  font-weight: bold;
+  color: black;
+  background-color: #e7f8fb;
+  letter-spacing: 3px;
+  transform: scale(1.2);
+}
+#sec-about button:hover {
+  transform: scale(1.3);
+  color: white;
+  border-color: #e7f8fb;
+  background-color: #1d97a2;
+}
+#sec-team {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#sec-team h1 {
+  margin-top: 40px;
+}
 
 @media (max-width: 600px) {
-    #sec-about{
-        height: 900px;
-    }
-    .inline {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    .s-ser{
-        width: 100%;
-        margin: 1rem;
+  #sec-about {
+    height: 900px;
+  }
+  .inline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .s-ser {
+    width: 100%;
+    margin: 1rem;
+  }
+  .left-con {
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+    /* margin: 50px; */
+  }
+  .r-img {
+    display: none;
+  }
+  .s-ser {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
-    }
-    .left-con{
-        width: 100%;
-        text-align: center;
-        padding: 35px;
-        /* margin: 50px; */
-    }
-    .r-img{
-        display: none;
-    }
-    .s-ser{
-        width: 100%;
-        height: 100px;
-        box-sizing: border-box;
-        text-align: center;
-        
-        }
-        
-        .s-ser p{
-            text-align: left;
-            width: 100%;
-    
-        
-        }
-        #sec-about button{
-            text-align: center;
-            transform: scale(0.9);
-            background-color: #1d97a2;
-            color: white;
-            margin:30px  auto;
-        }
-        .left-con h3{
-            color: gray;
-            font-size: 1.2rem;
-            width: 100%;
-        }
-        .icons{
-            font-size: 1.2rem;
-        }
-        
-        .s-ser p{
-        padding-top: 0px;
-       padding-left: 0px;    
+  .s-ser p {
+    text-align: left;
+    width: 100%;
+  }
+  #sec-about button {
+    text-align: center;
+    transform: scale(0.9);
+    background-color: #1d97a2;
+    color: white;
+    margin: 30px auto;
+  }
+  .left-con h3 {
+    color: gray;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .icons {
+    font-size: 1.2rem;
+  }
 
-        }
-         h1 {
-            font-size: 2rem;
-        }
-        #container{
-            width: 100%;}
-        
+  .s-ser p {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  #container {
+    width: 100%;
+  }
 
-            .left-con h3{
-                text-align: left;
-                padding-left: 20px;
-            }
-
+  .left-con h3 {
+    text-align: left;
+    padding-left: 20px;
+  }
 }
