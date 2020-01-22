@@ -1,32 +1,46 @@
 body{
-   margin: 0 ;
+    font-family:'Raleway', Times, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+  width: 90%;
+  margin: auto;
+
 }
 
 .head{
     margin: 0 auto;
-    max-width: 800px;
-    background-image: url(img/head.jpeg);
+    width: 100%;
+    background-image: url(img/cover.jpg);
     background-size: cover;
-    height: 300px;
+    height: 600px;
+    opacity: .7;
 
+}
+.h-img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 200px;
 }
 
 #main {
-      background-color: #222;
-  }
+    background-color:#deeced;
+}
 
-  #nav-container {
+#nav-container {
     position: fixed;
     width: 100%;
     top: 20px;
-   
-  }
+    z-index: 1000;
+}
 #navbar {
     position: relative;
     margin: 0 auto;
     max-width: 800px;
-    height: 50px;
-    background-color: rgba(0, 0, 0,.4);
+    height: 60px;
+    background-color: rgba(0, 0, 0,.6);
+    transform: scale(1.1);
 }
 
 h6{
@@ -34,9 +48,8 @@ h6{
 }
 
 #logo {
-    
     width: 200px;
-    padding: 5px 20px;
+    padding: 0px 20px;
    
 }
 
@@ -49,11 +62,11 @@ h6{
 }
 
 section {
-
+    margin: 20px 0;
 }
 h1{
     padding-left: 20px;
-    line-height: 1px;
+    line-height: 0px;
 }
 
 .row {
@@ -72,8 +85,8 @@ h1{
 }
 .inline li {
     display: inline-block;
-    padding: 0px;
-    
+    padding: 5px 10px;
+    letter-spacing: 1px;
     width: 70px;
     height: 50px;
     text-align: center;
@@ -98,3 +111,292 @@ h1{
 .white {
     color: #fff;
 }
+#sec-about{
+    width: 100%;
+    height: 800px;
+    background-color: #E7F8FB ;
+
+}
+.left-con{
+    width: 65%;
+    box-sizing: border-box;
+    padding: 70px;;
+}
+h1{
+    font-size:3rem;
+}
+.left-con h3{
+    font-size: 1.5rem;
+    width: 80%;
+}
+.r-img {
+    width: 35%;
+    height: 100%;
+}
+.r-img img{
+width: 100%;
+height: 100%;
+}
+.inline {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.s-ser{
+margin-top: 50px;
+width: 50%;
+height: 100px;
+box-sizing: border-box;
+
+}
+
+.s-ser p{
+    color: gray;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 90%;
+
+}
+.icons{
+    font-size: 1.9em;
+    display: block;
+}
+
+#sec-about button{
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid gray ;
+    border-radius: 50px;
+    width: 170px;
+    font-weight: bold;
+    color: black;
+    background-color: #E7F8FB ;
+    letter-spacing: 3px;
+    transform: scale(1.2);
+
+}
+#sec-about button:hover{
+  
+    transform: scale(1.3);
+    color: white;
+    border-color: #E7F8FB ;
+    background-color: #1d97a2;
+}
+#sec-team{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+#sec-team h1{
+    margin-top: 40px;
+   
+}
+#wwwsec-portfolio{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: black;
+}
+
+
+@media (max-width: 600px) {
+    .inline {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .s-ser{
+        width: 100%;
+        margin: 1rem;
+
+    }
+    .left-con{
+        width: 100%;
+        text-align: center;
+        padding: 35px;
+        /* margin: 50px; */
+    }
+    .r-img{
+        display: none;
+    }
+    .s-ser{
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        text-align: center;
+        
+        }
+        
+        .s-ser p{
+            text-align: left;
+            width: 100%;
+    
+        
+        }
+        #sec-about button{
+            text-align: center;
+            transform: scale(0.9);
+            background-color: #1d97a2;
+            color: white;
+            margin:30px  auto;
+        }
+        .left-con h3{
+            color: gray;
+            font-size: 1.2rem;
+            width: 100%;
+        }
+        .icons{
+            font-size: 1.2rem;
+        }
+        
+        .s-ser p{
+        padding-top: 0px;
+       padding-left: 0px;    
+
+        }
+         h1 {
+            font-size: 2rem;
+        }
+        #container{
+            width: 100%;}
+        
+
+            .left-con h3{
+                text-align: left;
+                padding-left: 20px;
+            }
+
+}
+
+
+
+
+
+
+#sec-portfolio {
+    display: flex;
+    justify-content: center;
+}
+#main-head {
+    font-size: 28px;
+    font-weight: bold;
+}
+#main-paragraph {
+    margin: 20px 60px;
+    font-size: 20px;
+}
+.flex-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255,255,255,0.6);
+    width: 100%;
+}
+
+.flex-row {
+    flex: 0 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.flex-card {
+    position: relative;
+    padding: 12px;
+    grid-gap: 12px;
+    flex: 0 25%;
+    box-sizing: border-box;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    z-index: 100;
+}
+.card-info {
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+}
+
+.responsive-img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-card:hover {
+    box-shadow: 0 0 12px #000;
+    transform: scale(1.1, 1.1);
+    z-index: 101;
+}
+
+.flex-card:hover .card-info {
+    opacity: 1;
+}
+
+.card-link {
+    display: inline-block;
+    background-color: #1d97a2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+  
+.center {
+    text-align: center;
+}
+
+@media (min-width: 1800px) {
+    .content {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .flex-card {
+        flex: 0 33.3333333%;
+    }
+}
+
+@media (max-width: 900px) {
+    .flex-card {
+        flex: 0 50%;
+    }
+    .card-info {
+        position: relative;
+        opacity: 1;
+        height: 40%;
+
+    }
+    .responsive-img {
+        height: 60%;
+    }
+    .card-info {
+        background-color: #333;
+    }
+}
+@media (max-width: 600px) {
+    .flex-card {
+        flex: 0 100%;
+    }
+}
+
+ 
+  
+ 
