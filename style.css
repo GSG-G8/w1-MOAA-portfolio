@@ -55,7 +55,7 @@ h6{
 
 #main-nav {
   position: absolute;
-    right: 20px;
+  right: 20px;
 }
 .center {
     margin: 0 auto;
@@ -113,7 +113,6 @@ h1{
 }
 #sec-about{
     width: 100%;
-    /* height: 800px; */
     background-color: #E7F8FB ;
 
 }
@@ -213,6 +212,7 @@ box-sizing: border-box;
         align-items: center;
     
     }
+  
     .s-ser{
         width: 100%;
         margin: 1rem;
@@ -355,8 +355,14 @@ box-sizing: border-box;
     background-color: #1d97a2;
     color: #fff;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 10px;
     text-decoration: none;
+}
+.card-link:hover{
+    background-color: #ddd;
+    color:#1d97a2 ;
+
+
 }
   
 .center {
@@ -396,8 +402,12 @@ box-sizing: border-box;
     .flex-card {
         flex: 0 100%;
     }
+    
 }
 
+button{
+    cursor: pointer;
+}
  
   
  
