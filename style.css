@@ -2,12 +2,19 @@ body{
     font-family:'Raleway', Times, sans-serif;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
-#container{
+.container{
   width: 90%;
   margin: auto;
 
 }
+.container1{
+    width: 90%;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+  }
 
 .head{
     margin: 0 auto;
@@ -117,7 +124,7 @@ h1{
 
 }
 .left-con{
-    width: 65%;
+    width: 55%;
     box-sizing: border-box;
     padding: 70px;;
 }
@@ -129,7 +136,7 @@ h1{
     width: 80%;
 }
 .r-img {
-    width: 35%;
+    width: 45%;
 
 }
 .r-img img{
@@ -488,6 +495,29 @@ label {
 }
 textarea {
     resize:vertical;
+    min-height: 40px;
 }
  
+footer{
+    width: 100%;
+    background-color: rgb(78, 70, 70);
+    color: white;
+   
+   
+}
+footer .ul-col{
+    width: 50%;
+    margin-top: 40px;
+    padding: 40px;
+}
+.ul-col a{
+    display: block;
+    padding: 10px;
+
+}
+.copy{
+    width: 100%;
+    padding-bottom:50px ;
+}
+
 
