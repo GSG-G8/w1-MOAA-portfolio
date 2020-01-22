@@ -163,7 +163,7 @@ box-sizing: border-box;
     display: block;
 }
 
-#sec-about button{
+#sec-about button, .form-button{
     margin-top: 50px;
     padding: 20px;
     border: 2px solid gray ;
@@ -176,7 +176,7 @@ box-sizing: border-box;
     transform: scale(1.2);
 
 }
-#sec-about button:hover{
+#sec-about button:hover, .form-button:hover{
   
     transform: scale(1.3);
     color: white;
@@ -362,6 +362,11 @@ box-sizing: border-box;
     text-align: center;
 }
 
+
+::placeholder {
+    color: #fff;
+}
+
 @media (min-width: 1800px) {
     .content {
         max-width: 1440px;
@@ -390,6 +395,12 @@ box-sizing: border-box;
     .card-info {
         background-color: #333;
     }
+    ::placeholder {
+        color: #888;
+    }
+    .col-1{
+        display: none;
+    }
 }
 @media (max-width: 600px) {
     .flex-card {
@@ -398,5 +409,44 @@ box-sizing: border-box;
 }
 
  
-  
+
+#sec-contact {
+    padding: 40px;
+    background-color: rgba(255,255,255,0.6);
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+.col-1{
+    flex-basis: 160px;
+}
+.col-2{
+    flex-grow: 1;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 28px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+label {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+textarea {
+    resize:vertical;
+}
  
+sss {
+    font-size: 28px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
