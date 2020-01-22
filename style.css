@@ -367,6 +367,45 @@ box-sizing: border-box;
     color: #fff;
 }
 
+.contTeam{
+    background-color: rgba(255,255,255,0.6);
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+
+.contImg{
+
+line-height: 2px;
+padding: 5px;
+text-align: center;
+
+}
+
+.personImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid transparent; ;
+
+}
+.personImg:hover{
+  
+    border: 2px solid black;
+}
+
+i{
+   padding: 5px;
+}
+
+i:hover{
+    transform: scale(1.5);
+}
+
+
+
 @media (min-width: 1800px) {
     .content {
         max-width: 1440px;
@@ -408,8 +447,6 @@ box-sizing: border-box;
     }
 }
 
- 
-
 #sec-contact {
     padding: 40px;
     background-color: rgba(255,255,255,0.6);
@@ -450,3 +487,4 @@ sss {
     border: 2px solid #333;
     border-radius: 8px;
 }
+
