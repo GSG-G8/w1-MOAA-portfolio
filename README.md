@@ -70,8 +70,8 @@ I would like to easily understand how to navigate the site after my screen reade
 `so I can understand the information available.`
 
 ## Stretch goals
-Live chat
-Channle for the site
-get more accessibility for our sit
-get it modern layout 
+    1. Live chat
+    2. Channle for the site
+    3. get more accessibility for our sit
+    4. get it modern layout 
 
