@@ -4,17 +4,18 @@ body{
     padding: 0px;
     scroll-behavior: smooth;
 }
-.container{
-  width: 90%;
-  margin: auto;
 
+.container{
+    width: 90%;
+    margin: auto;
 }
+
 .container1{
     width: 90%;
     margin:0px auto;
     display: flex;
     flex-direction: column;
-  }
+}
 
 .head{
     margin: 0 auto;
@@ -50,6 +51,7 @@ body{
     transform: scale(1.1);
 }
 
+
 h6{
     line-height: 1px;
 }
@@ -61,9 +63,10 @@ h6{
 }
 
 #main-nav {
-  position: absolute;
-  right: 20px;
+    position: absolute;
+    right: 20px;
 }
+
 .center {
     margin: 0 auto;
 }
@@ -71,14 +74,15 @@ h6{
 section {
     margin: 20px 0;
 }
+
 h1{
     padding-left: 20px;
     line-height: 0px;
 }
 
 .row {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .col {
@@ -90,17 +94,22 @@ h1{
     margin: 0;
     display: relative;
 }
-.inline li {
+ul{
+    list-style: none;
+}
+.inline a {
     display: inline-block;
     padding: 5px 10px;
+    color: white;
     letter-spacing: 1px;
     width: 70px;
     height: 50px;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
     
 }
-.inline li:hover {
+.inline a:hover {
     background-color: #000;
     cursor: pointer;
 }
@@ -140,22 +149,21 @@ h1{
 
 }
 .r-img img{
-width: 100%;
-height: 100%;
-align-items: stretch;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
 }
+
 .inline {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .s-ser{
-margin-top: 50px;
-width: 50%;
-height: 100px;
-box-sizing: border-box;
-
+    margin-top: 50px;
+    width: 50%;
+    height: 100px;
+    box-sizing: border-box;
 }
 
 .s-ser p{
@@ -165,6 +173,7 @@ box-sizing: border-box;
     width: 90%;
 
 }
+
 .icons{
     font-size: 1.9em;
     display: block;
@@ -181,105 +190,24 @@ box-sizing: border-box;
     background-color: #E7F8FB ;
     letter-spacing: 3px;
     transform: scale(1.2);
-
 }
+
 #sec-about button:hover, .form-button:hover{
-  
     transform: scale(1.3);
     color: white;
     border-color: #E7F8FB ;
     background-color: #1d97a2;
 }
+
 #sec-team{
     width: 100%;
     text-align: center;
     background-color: #E7F8FB;;
-
-    /* margin-top: 0px;
-    padding-top: 0px; */
-
 }
+
 #sec-team h1{
     margin-bottom: 70px;
-   
 }
-
-
-
-@media (max-width: 600px) {
-    .inline {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    
-    }
-  
-    .s-ser{
-        width: 100%;
-        margin: 1rem;
-
-    }
-    .left-con{
-        width: 100%;
-        text-align: center;
-        padding: 35px;
-        /* margin: 50px; */
-    }
-    .r-img{
-        display: none;
-    }
-    .s-ser{
-        width: 100%;
-        height: 100px;
-        box-sizing: border-box;
-        text-align: center;
-        
-        }
-        
-        .s-ser p{
-            text-align: left;
-            width: 100%;
-    
-        
-        }
-        #sec-about button{
-            text-align: center;
-            transform: scale(0.9);
-            background-color: #1d97a2;
-            color: white;
-            margin:30px  auto;
-        }
-        .left-con h3{
-            color: gray;
-            font-size: 1.2rem;
-            width: 100%;
-        }
-        .icons{
-            font-size: 1.2rem;
-        }
-        
-        .s-ser p{
-        padding-top: 0px;
-       padding-left: 0px;    
-
-        }
-         h1 {
-            font-size: 2rem;
-        }
-        #container{
-            width: 100%;}
-        
-
-            .left-con h3{
-                text-align: left;
-                padding-left: 20px;
-            }
-
-}
-
-
 
 #sec-portfolio {
     display: flex;
@@ -319,6 +247,7 @@ box-sizing: border-box;
     transition-duration: 0.2s;
     z-index: 100;
 }
+
 .card-info {
     background-color: rgba(0,0,0, 0.5);
     color: #fff;
@@ -358,17 +287,15 @@ box-sizing: border-box;
     border-radius: 10px;
     text-decoration: none;
 }
+
 .card-link:hover{
     background-color: #ddd;
     color:#1d97a2 ;
-
-
 }
   
 .center {
     text-align: center;
 }
-
 
 ::placeholder {
     color: #fff;
@@ -380,17 +307,13 @@ box-sizing: border-box;
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
-  
 }
 
 .contImg{
-
-line-height: 2px;
-padding: 10px;
-text-align: center;
-margin-bottom: 50px;
-
-
+    line-height: 2px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .personImg{
@@ -398,10 +321,8 @@ margin-bottom: 50px;
     height: 150px;
     border-radius: 50%;
     border: 2px solid transparent; ;
-
 }
 .personImg:hover{
-  
     border: 2px solid black;
 }
 
@@ -412,8 +333,6 @@ i{
 i:hover{
     transform: scale(1.5);
 }
-
-
 
 @media (min-width: 1800px) {
     .content {
@@ -431,56 +350,135 @@ i:hover{
     .flex-card {
         flex: 0 50%;
     }
+
     .card-info {
         position: relative;
         opacity: 1;
         height: 40%;
 
     }
+
     .responsive-img {
         height: 60%;
     }
+
     .card-info {
         background-color: #333;
     }
+
     ::placeholder {
         color: #888;
     }
+
     .col-1{
         display: none;
+    }
+
+    .inline {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .s-ser{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .left-con{
+        width: 100%;
+        text-align: center;
+        padding: 35px;
+    }
+
+    .r-img{
+        display: none;
+    }
+
+    .s-ser{
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+        
+    .s-ser p{
+        text-align: left;
+        width: 100%;
+    }
+
+    #sec-about button{
+        text-align: center;
+        transform: scale(0.9);
+        background-color: #1d97a2;
+        color: white;
+        margin:30px  auto;
+    }
+
+    .left-con h3{
+        color: gray;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .icons{
+        font-size: 1.2rem;
+    }
+    
+    .s-ser p{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #container{
+        width: 100%;
+    }
+
+    .left-con h3{
+        text-align: left;
+        padding-left: 20px;
     }
 }
 @media (max-width: 600px) {
     .flex-card {
         flex: 0 100%;
     }
-    
 }
 
 button{
     cursor: pointer;
 }
  
-
 #sec-contact {
     padding: 40px;
     background-color: #E7F8FB;;
 }
+
 .grid {
     display: flex;
     flex-direction: column;
 }
+
 .row-1 {
     display: flex;
     flex-direction: row;
     margin: 8px;
 }
+
 .col-1{
     flex-basis: 160px;
 }
+
 .col-2{
     flex-grow: 1;
 }
+
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -488,11 +486,13 @@ input, textarea {
     border: 2px solid #333;
     border-radius: 8px;
 }
+
 label {
     font-size: 28px;
     font-weight: bold;
     color: #333;
 }
+
 textarea {
     resize:vertical;
     min-height: 40px;
@@ -502,22 +502,20 @@ footer{
     width: 100%;
     background-color: rgb(78, 70, 70);
     color: white;
-   
-   
 }
+
 footer .ul-col{
     width: 50%;
     margin-top: 40px;
     padding: 40px;
 }
+
 .ul-col a{
     display: block;
     padding: 10px;
-
 }
+
 .copy{
     width: 100%;
     padding-bottom:50px ;
 }
-
-
