@@ -50,6 +50,7 @@ body{
     transform: scale(1.1);
 }
 
+
 h6{
     line-height: 1px;
 }
@@ -90,17 +91,22 @@ h1{
     margin: 0;
     display: relative;
 }
-.inline li {
+ul{
+    list-style: none;
+}
+.inline a {
     display: inline-block;
     padding: 5px 10px;
+    color: white;
     letter-spacing: 1px;
     width: 70px;
     height: 50px;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
     
 }
-.inline li:hover {
+.inline a:hover {
     background-color: #000;
     cursor: pointer;
 }
